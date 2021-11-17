@@ -65,7 +65,7 @@ Mae: That’s spooky, Mr. Chazokov.
 When this code is run, options will appear after the line "Will you be back?". Yarn Spinner then sends the options "Yeah if I remember!" and "Probably not" to the game, and waits for a response. After a choice is made, the remaining lines start being run.
 
 {{<note>}}
-The only difference between shortcut options and regular options is the way they're written. From the perspective of the game, and of the player, there's no difference in how they appear.
+The difference between shortcut options and regular options is the way they're written and when they appear in the game. Shortcut options will appear in the same place they are written in within the node, while regular ones always appear at the end of the node, regardless of their location.
 {{</note>}}
  
 ### Shortcut options and lines
